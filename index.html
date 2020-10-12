@@ -1,16 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Anime</title>
+<link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet'>
+<title>Audrey Dayrit</title>
+<style>
+body {
+  background-color: #c7d1ff;
+  font-family: 'Cantarell';
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  border: 2px solid #7a93ff;
+  color: #5040ae;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 25px;
+  font-family: Cantarell;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.button1 {background-color: #e3e8ff;}
+.button1:hover {backgound-color: #a3b4ff; color:white}
+
+.tooltip {
+  position: relative;
+  display: block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  backgound-color:#e3e8ff;
+  color: #3b2e85;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5%;
+  right: 56%; 
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+</style>
 </head>
 <body>
 
-<h1 style="font-size:50px;color:red">What is <i>anime</i>?</h1>
-<p style="font-size:20px">"Anime" simply refers to a style of Japanese animation.<br>You could just say they are Japanese cartoons, but not just for kids.<br>There are many different types of anime that are aimed towards teens and adults as well.</p>
-<p style="font-size:20px">Many animes also show various aspects of Japanese culture, including ninjustsu (ninjas) and -- most popularly -- Japanese high school life.</p>
+<h1 style="font-size:40px; text-align:center; color:#5040ae"><strong>AUDREY DAYRIT</strong></h1>
+<h2 style="font-size: 20px; text-align:center; color:#5040ae">Click the buttons to see my works!<h2>
 
-<h2 style="font-size:30px">Click the buttons below to see some examples of anime characters.</h2>
-<button onclick="window.location.href='misaka.html';">Mikoto Misaka</button>
+<button class="button button1" onclick="window.location.href='glitch-art.html';">Glitch Art</button>
+<button class="button button1" onclick="window.location.href='meme-mashup.html';">Meme Mashup</button>
+<div class="tooltip">
+  <button class="button button1" onclick="window.location.href='https://anaudday.github.io/Friend-Sera/';">Net Art</button>
+  <span class="tooltiptext" style="font-size:20px">Click to make a new friend!</span>
+</div>
+<button class="button button1" onclick="window.location.href='minecraft-art.html';">Minecraft Art</button>
 
 </body>
 </html>
