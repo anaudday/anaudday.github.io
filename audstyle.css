@@ -1,9 +1,55 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <script src="https://kit.fontawesome.com/df52c03593.js"></script>
-</head>
+body {
+  background-color: #c7d1ff;
+  font-family: 'Cantarell';
+}
 
-<body>
-</body>
-</html>
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #5040ae;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: -10px;
+    color: #5040ae;
+}
+
+p {
+   text-align: center;
+    font-size: 18px;
+    color: #3b2e85;
+}
+
+.nav {
+  position: relative;
+  overflow: hidden;
+  background-color: #5040ae;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+  margin: auto;
+}
+
+.nav a:hover {
+  background-color: #40338a;
+  color: white;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .nav a, .nav-right {
+    float: none;
+    display: block;
+  }
+}
