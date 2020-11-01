@@ -13,7 +13,18 @@
 <link href='audstyle.css' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet'>
 <title>Audrey Dayrit</title>
-<style>  
+<style>
+canvas {
+z-index: 99;
+position:absolute;
+top:50%;
+left:55%;
+width:100%;
+height:100%;
+z-index:-1;
+margin:auto;
+  transform: translate(-50%, -50%);
+}
 img {
   border-radius: 20px;
   margin-top: 20px;
@@ -29,7 +40,10 @@ body { padding: 0; margin: 0; }
 </style>
 </head>
 
-<body>
+<body style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
+ unselectable="on"
+ onselectstart="return false;" 
+ onmousedown="return false;">
 <h1><strong>AUDREY DAYRIT</strong></h1>
 <!-- Top navigation -->
 <div class="nav">
@@ -41,12 +55,12 @@ body { padding: 0; margin: 0; }
     <a href="index.html">DIYPS</a>
 </div>
 
-<div>
+<div class="center">
 <script language="javascript" type="text/javascript" src="diyps.js"></script>
 <h2>Boba Maker</h2>
 
 <p>Create your own boba milk tea drink using the 1-9 keys on your keyboard!</p>
-<p>Choose your flavor with #1-5.<br>Choose your toppings with #6-9.</p>
+<p>Add a new cup using the G key.<br>Choose your flavor with #1-5.<br>Choose your toppings with #6-9.</p>
 
 </div>
     

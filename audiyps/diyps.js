@@ -1,6 +1,6 @@
 var img;
 var boba ='mybobatea'; // your initials
-var choice = '1'; // starting choice, so it is not empty
+var choice = 'g'; // starting choice, so it is not empty
 var screenbg = (199, 209, 255);
 var lastscreenshot=61; // last screenshot never taken
 
@@ -15,7 +15,6 @@ function preload() {
 function setup() {
 createCanvas(windowWidth, windowHeight);  // canvas size
 background(199, 209, 255);   // use our background screen color
-image(glass,500,100);
 
 }
 
@@ -54,14 +53,9 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     stroke(207, 247, 129);
     strokeWeight(80);
     line(mouseX, mouseY, pmouseX, pmouseY);
-  } else if (key == '5') { // rainbow milk tea
-    colorMode(HSB);
-  // background(frameCount % 360, 100, 100);
-   noStroke();
-    stroke((5*frameCount) % 360, 40, 100);
-    fill((5*frameCount) % 360, 100, 100);
-
-    // ellipse(mouseX, mouseY, 30,30);
+  } else if (key == '5') { // taro milk tea
+  
+    stroke(215, 201, 224);  
     strokeWeight(80);
     line(mouseX, mouseY, pmouseX, pmouseY);
  //   line(mouseX, mouseY, pmouseX, pmouseY);
@@ -77,6 +71,9 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   } else if (toolChoice == '9') { // pokeball
 
     image(pokeball, mouseX, mouseY);
+  } else if (toolChoice== 'g') { // cup
+      
+    image(glass, mouseX, mouseY);  
   }
   
  }
@@ -85,11 +82,12 @@ function clear_print() {
 // this will do one of two things, x clears the screen by resetting the background
 // p calls the routine saveme, which saves a copy of the screen
   if (key == 'x' || key == 'X') {
-    background(199, 209, 255); // set the screen back to the background color
-    image(glass,500,100);
+      createCanvas(windowWidth, windowHeight);  // canvas size
+      background(199, 209, 255);   // use our background screen color
   } else if (key == 'p' || key == 'P') {
      saveme();  // call saveme which saves an image of the screen
   }
+
 }
 
 function saveme(){
