@@ -5,11 +5,11 @@ var score =0;
 var gameState= "L1";
 
 function preload() {
-  Mondstadt = loadImage('https://anaudday.github.io/dot_touch/mondstadt.png');
-  Liyue = loadImage('https://anaudday.github.io/dot_touch/liyue.png');
-  statue7 = loadImage('https://anaudday.github.io/dot_touch/statueof7.png');
-  anemo = loadImage('https://anaudday.github.io/dot_touch/anemoculus.png');
-  geo = loadImage('https://anaudday.github.io/dot_touch/geoculus.png');
+  Mondstadt = loadImage('https://anaudday.github.io/genshin-collect/mondstadt.png');
+  Liyue = loadImage('https://anaudday.github.io/genshin-collect/liyue.png');
+  statue7 = loadImage('https://anaudday.github.io/genshin-collect/statueof7.png');
+  anemo = loadImage('https://anaudday.github.io/genshin-collect/anemoculus.png');
+  geo = loadImage('https://anaudday.github.io/genshin-collect/geoculus.png');
 }
 
 function setup() {
