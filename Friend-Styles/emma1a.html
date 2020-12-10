@@ -3,16 +3,17 @@
 <head>
 <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Syne' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Asar' rel='stylesheet'>
 <link href='friendstyle.css' rel='stylesheet'>
 <title>Friend Styles</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
-  background: url("highschool-outdoor1.jpg");
+  background: url("highschool-cafe.png");
   background-color: rgba(255,255,255,0.6);
   background-blend-mode: lighten;
   max-width: 800px;
-  padding: 0 20px;
+  padding: 0;
   margin: auto;
 }
 
@@ -23,12 +24,14 @@ img {
 }
 
 .container {
-  border: 2px solid #bdcaff;
-  background-color: #e6ebff;
+  border: 2px solid #e3e3e3;
+  background-color: #FFFAEE;
   border-radius: 5px;
-  padding: 10px;
-  margin: 30px;
+  width: 650px;
+  margin: auto;
+  margin-top: 5px;
   text-align: center;
+  display: block;
 }
 
 .button {
@@ -38,12 +41,12 @@ img {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 18px;
+  font-size: 15px;
   font-family: Lucida Console;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 5px;
   transition-duration: 0.3s;
   cursor: pointer;
 }
@@ -58,14 +61,16 @@ img {
 </head>
 <body>
 
+<img src="emmasprite-upset.png" alt="Emma is upset." width="550" height="573" class="center">
 <div class="container">
-  <p style="font-family: Inconsolata; font-size: 25px">Your high school is having its annual <i><b>school festival</b></i>! You've been waiting for this week since the year began. A festival is a great place to start when looking for new friends, you thought.</p>
-    <p style="font-family: Inconsolata; font-size: 25px"><strong>Where do you want to go?</strong></p>
+    <p style="font-family: Asar; font-size: 22px; color: black">"This is a <i>maid</i> cafe! Whoever volunteered me for this is beyond me.. But if it really makes you uncomfortable, I suggest you leave."</p>
 </div>
 
-<button class="button button1" onclick="window.location.href='fs2.html';">Inside the school</button>
-<button class="button button2">LOCKED</button>
-<button class="button button2">LOCKED</button>
+<button class="button button1" onclick="window.location.href='emma3.html';">"Fine, I'll have some water."</button>
+<button class="button button1" onclick="window.location.href='emma3.html';">"Never mind, I'll have tea."</button>
+<button class="button button1" onclick="window.location.href='emma3.html';">"Whatever, I'll have coffee."</button>
+<button class="button button1" onclick="window.location.href='fs2.html';">"Yeah, this is weird.. Bye!"</button>
+    
 
 </body>
 </html>
