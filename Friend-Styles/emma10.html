@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Syne' rel='stylesheet'>
+<link href='friendstyle.css' rel='stylesheet'>
+<title>Friend Styles</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background: url("highschool-cafe.png");
+  background-color: rgba(255,255,255,0.6);
+  background-blend-mode: lighten;
+  max-width: 800px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container1 {
+  border: 2px solid #bdcaff;
+  background-color: #e6ebff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 30px;
+  text-align: center;
+}
+
+.container2 {
+  animation: blinker 1.5s linear infinite;
+  border: 2px solid #bdcaff;
+  background-color: #e6ebff;
+  border-radius: 5px;
+  padding: auto;
+  width: 450px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+    @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+      .blink-one {
+        animation: blinker-one 1s linear infinite;
+      }
+      @keyframes blinker-one {
+        100% {
+          opacity: 0;
+        }
+      }
+      .blink-two {
+        animation: blinker-two 1.4s linear infinite;
+      }
+    @keyframes blinker-two {
+        100% {
+          opacity: 0;
+        }
+      }
+    
+.button {
+  border: 5px solid #a8b8ff;
+  color: #5040ae;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-family: Lucida Console;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.button1 {background-color: #c7d1ff}
+.button1:hover {background: #6682ff; color:white;}
+    
+.button2 {background-color: #c7d1ff; color: red}
+.button2:hover {background: #6682ff; color:white;}
+
+</style>
+</head>
+<body>
+
+<div class="container1">
+  <p style="font-family: Inconsolata; font-size: 25px">Emma brings you a plate of cinnamon rolls, and you <b>exchange numbers</b>. She is excited to meet with you for lunch tomorrow to talk more about her future interior plans! You leave the cafe with a <b><i>new friend</i></b>.</p>
+</div>
+    
+<div class="container2">
+  <p style="font-family: Inconsolata; font-size: 40px; color: #00ff00;"><b><i>FRIEND ACHIEVED!</i></b></p>
+</div>
+
+<button class="button button1" onclick="window.location.href='fs1.html';">Go back outside</button>
+    
+
+</body>
+</html>
