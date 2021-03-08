@@ -1,13 +1,13 @@
-let rectX = 0;
-let fr = 30;
-let clr;
-let scan = false;
-let xPos = 100;
-let yPos = 100;
-let rotation = 10;
-let catnip1;
-let catnip2;
-let catnip3;
+var rectX = 0;
+var fr = 30;
+var clr;
+var scan = false;
+var xPos = 100;
+var yPos = 100;
+var rotation = 10;
+var catnip1;
+var catnip2;
+var catnip3;
 
 
 function setup() {
