@@ -1,41 +1,50 @@
-let color = ['red','orange', 'yellow', 'green', 'blue', 'purple', 'pink', 'white', 'black', 'grey'];
-
-let clr;
-let pick;
+let OPI = ["Looks great!", "Eh..", "Pick another.", "So pretty!", "Looks alright.", "OMG! Love it!", "Super cute!", "Wow!"];
+let thoughts;
 
 function preload() {
   hand = loadImage('https://anaudday.github.io/polishpick-final/hand-nails.png');
 }
 
 function setup() {
-  createCanvas(560, 560);
-  background(400);
+  createCanvas(560, 600);
   frameRate(60);
-  image(hand, 0, 0);
-  prompt();
+  background(255);
+
+  fill(0);
+  textAlign(CENTER);
+  textSize(22);
+  textStyle(ITALIC);
+
+  text('What color should I paint my nails today?', width*0.5, height*0.07);
 }
 
 function draw() {
+  image(hand, 0, 80);
 }
 
 function mousePressed() {
-  clr = int(random(color.length));
-  pick = color[clr] + '!';
-  answer();
-  prompt();
+  text('What color should I paint my nails today?', width*0.5, height*0.07);
+  background(255);
+  rv = random(255);
+  gv = random(255)
+  bv = random(255);
+  pickColor();
+
+  op = int(random(OPI.length));
+  thoughts = OPI[op];
+  yesNo();
 }
 
-function prompt() {
-  fill(0);
-  textAlign(CENTER);
-  textSize(18);
-  textStyle(ITALIC);
-  text('What color should I paint my nails today?', width*0.5, height*0.15);
+function pickColor() {
+  fill(rv, gv, bv);
+  noStroke();
+  square(10, 80, 500);
 }
 
-function answer() {
-  background(400);
+function yesNo() {
   fill(0);
   textAlign(CENTER);
-  text(pick, width*0.5, height*0.5)
+  textSize(22);
+
+  text(thoughts, width*0.5, height*0.12)
 }
