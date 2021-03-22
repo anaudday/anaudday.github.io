@@ -4,11 +4,11 @@ let clr;
 let pick;
 
 function preload() {
-  hand = loadImage('hand-nails.png');
+  hand = loadImage('https://anaudday.github.io/polishpick-final/hand-nails.png');
 }
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(560, 560);
   background(400);
   frameRate(60);
   image(hand, 0, 0);
