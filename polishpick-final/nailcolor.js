@@ -12,10 +12,10 @@ function setup() {
 
   fill(0);
   textAlign(CENTER);
-  textSize(22);
+  textSize(20);
   textStyle(ITALIC);
 
-  text('What color should I paint my nails today?', width*0.5, height*0.07);
+  text('What color should I paint my nails today? (Click to choose.)', width*0.5, height*0.07);
 }
 
 function draw() {
