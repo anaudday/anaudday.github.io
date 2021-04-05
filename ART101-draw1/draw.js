@@ -3,7 +3,7 @@ let initials ='AD';
 let lastPrnt = 1;
 
 function setup() {
-  createCanvas(2000, 2000);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
@@ -46,13 +46,9 @@ function newkeyChoice(toolChoice) {
 }
 
 function clear_print() {
-  if (key == 'x' || key == 'X') {
-      createCanvas(windowWidth, windowHeight);
-      background(199, 209, 255);
-  } else if (key == 'p' || key == 'P') {
-     savePic();
+  if (key == 'p' || key == 'P') {
+      savePic();
   }
-
 }
 
 function savePic(){
