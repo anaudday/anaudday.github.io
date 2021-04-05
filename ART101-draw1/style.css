@@ -1,0 +1,16 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #fef0ff;
+  font-family: 'Cantarell';
+}
+canvas {
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  color:#0052cc;
+}
