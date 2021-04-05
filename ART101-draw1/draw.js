@@ -3,7 +3,7 @@ let initials ='AD';
 let lastPrnt = 1;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(1200, 1200);
 }
 
 function draw() {
