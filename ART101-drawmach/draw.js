@@ -69,11 +69,11 @@ function newkeyChoice(toolChoice) {
 }
 
 function clear_print() {
-  if(key == 'p' || key == 'P') {
+  if(keyCode == ENTER) {
 
   savePic();
 
-  } else if (key == 'x' || key == 'X') {
+  } else if (keyCode == DELETE) {
   clear();
   background(248,248,248);
   blackBrush();
