@@ -17,9 +17,9 @@ canvas {
 
 h1 {
   font-family: 'VT323';
-  font-size: 55px;
+  font-size: 45px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 p1 {
@@ -27,6 +27,13 @@ p1 {
   text-align: center;
   display: block;
   margin: auto;
+}
+
+p2 {
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  margin-top: 6px;
 }
 
 button {
@@ -48,4 +55,16 @@ button:hover {
 
 script {
   margin-top: 10px;
+}
+
+input {
+  border: 1px solid;
+  border-radius: 4px;
+  background: transparent;
+  border-bottom: 2px solid black;
+  width: 145px;
+  height: 30px;
+  font-size: 20px;
+  font-family: 'Roboto Mono';
+  padding-top: 9px;
 }

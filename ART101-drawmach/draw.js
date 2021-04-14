@@ -61,20 +61,26 @@ function newkeyChoice(toolChoice) {
     // ellipse(mouseX, mouseY, 30,30);
   line(mouseX, mouseY, pmouseX, pmouseY);
     }
+  } else if(toolChoice == 'e' || toolChoice == 'E'){
+  colorMode(RGB);
+  stroke(248,248,248);
+  line(mouseX, mouseY, pmouseX, pmouseY);
   }
 }
 
 function clear_print() {
   if(key == 'p' || key == 'P') {
-    savePic();
+
+  savePic();
+
   } else if (key == 'x' || key == 'X') {
-    clear();
-    background(248,248,248);
-    blackBrush();
-    redBrush();
-    blueBrush();
-    pastelBrush();
-    choice = 0;
+  clear();
+  background(248,248,248);
+  blackBrush();
+  redBrush();
+  blueBrush();
+  pastelBrush();
+  choice = 0;
   }
 
 }
@@ -130,5 +136,5 @@ function pastelBrush(){
   circle(165, 30, 35);
   fill(0);
   textSize(26);
-  text('?', 158, 39);
+  text('4', 158, 39);
 }
