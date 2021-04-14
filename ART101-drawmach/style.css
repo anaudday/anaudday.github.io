@@ -27,13 +27,15 @@ p1 {
   text-align: center;
   display: block;
   margin: auto;
+  margin-bottom: 8px;
 }
 
 p2 {
   font-size: 15px;
   text-align: center;
   display: block;
-  margin-top: 6px;
+  display: block;
+  margin: auto;
 }
 
 button {
