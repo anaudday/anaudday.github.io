@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cantarell';
+  background-color: #6e86d4;
+}
+
+canvas {
+  display: block;
+  margin: 150px auto;
+  border: 6px solid #5b76cf;
+  border-radius: 25px;
+}
+
+button {
+  display: block;
+  margin: auto;
+  padding: 5px 10px;
+  font-size: 48px;
+  font-family: 'VT323';
+  margin-top: 10px;
+  border: 5px solid #707070;
+  border-radius: 10px;
+  background-color: #D8D8D8;
+}
