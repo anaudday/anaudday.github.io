@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="main.css">
+  <link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet'>
+  <title>ADAYRIT FORMS</title>
+  <meta name="description" content="Tables for ART 79A by Audrey Dayrit.">
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="nav">
+    <ul>
+      <li><a href="dayrit-hw01.html" id="top">HW 1</a></li>
+      <li><a href="gallery.html" id="top">Gallery</a></li>
+      <li><a href="dayrit-table.html">Tables</a></li>
+    </ul>
+  </div>
+
+  <h1>Make your own boba drink!</h1>
+
+  <form id="bobamaker" name="Create your own boba drink" method="get" action="">
+    <fieldset style="border: 4px solid #5040ae; border-radius: 10px; width: 700px;">
+      <legend style="font-size: 20px;"><b>Customer Info</b></legend>
+        <label for="name">Your name:</label>
+        <input type="text" name="Name" id="name">
+        <br><br>
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="text" name="phoneNumber" id="phoneNumber" maxlength="11">
+    </fieldset>
+    <br><br>
+
+    <fieldset style="border: 4px solid #5040ae; border-radius: 10px; width: 700px;">
+      <legend style="font-size: 20px;"><b>Customize Your Drink!</b></legend>
+
+        Size:<br>
+        <label>
+          <input type="radio" name="size" value="regular" checked>Regular
+        </label>
+        <label>
+          <input type="radio" name="size" value="large">Large
+        </label>
+        <br><br>
+
+        <label for="teabase">Tea Base (What kind of tea would you like?):</label>
+          <select name="teabase" id="teabase">
+            <option value="BT">Black Tea</option>
+            <option value="GT">Green Tea</option>
+            <option value="thai">Thai Tea</option>
+            <option value="OT">Oolong Tea</option>
+            <option value="NCT">Non-caffeinated Tea</option>
+          </select>
+          <br><br>
+
+        <label for="milk">Milk Options:</label>
+          <select name="milk" id="milk">
+            <option value="nomilk">No Milk</option>
+            <optgroup label="Non-Dairy Options">
+              <option value="creamer">Dairy-Free Creamer</option>
+              <option value="soy">Soy Milk</option>
+              <option value="almond">Almond Milk</option>
+              <option value="oat">Oat Milk</option>
+            </optgroup>
+            <optgroup label="Dairy Options">
+              <option value="whole">Whole Milk</option>
+              <option value="fatfree">Fat-Free Milk</option>
+              <option value="2percent">2% Milk</option>
+            </optgroup>
+          </select>
+          <br><br>
+
+        Sweetness Level:<br>
+        <label>
+          <input type="radio" name="sweet" value="150">150%
+        </label><br>
+        <label>
+          <input type="radio" name="sweet" value="100" checked>100% (recommended)
+        </label><br>
+        <label>
+          <input type="radio" name="sweet" value="50">50%
+        </label><br>
+        <label>
+          <input type="radio" name="sweet" value="25">25%
+        </label><br>
+        <label>
+          <input type="radio" name="sweet" value="nosweet">No added sweetener
+        </label>
+        <br><br>
+
+        Ice Level:<br>
+        <label>
+          <input type="radio" name="ice" value="100" checked>100%
+        </label><br>
+        <label>
+          <input type="radio" name="ice" value="50">50%
+        </label><br>
+        <label>
+          <input type="radio" name="ice" value="25%">25%
+        </label><br>
+        <label>
+          <input type="radio" name="ice" value="noice">No ice
+        </label><br><br>
+
+        Toppings:<br>
+        <label>
+          <input type="checkbox" name="topping" value="honeyboba">Honey Boba
+        </label><br>
+        <label>
+          <input type="checkbox" name="topping" value="agarboba">Agar Boba
+        </label><br>
+        <label>
+          <input type="checkbox" name="topping" value="lycheejelly">Lychee Jelly
+        </label><br>
+        <label>
+          <input type="checkbox" name="topping" value="coconutjelly">Coconut Jelly
+        </label><br>
+        <label>
+          <input type="checkbox" name="topping" value="grassjelly">Grass Jelly
+        </label><br>
+        <label>
+          <input type="checkbox" name="topping" value="rainbowjelly">Rainbow Jelly
+        </label><br>
+        <label>
+          <input type="checkbox" name="topping" value="aloe">Aloe Vera
+        </label><br>
+        <label>
+          <input type="checkbox" name="topping" value="basil">Basil Seeds
+        </label><br>
+        <label>
+          <input type="checkbox" name="topping" value="eggpudding">Egg Pudding
+        </label><br>
+        <label>
+          <input type="checkbox" name="topping" value="redbean">Red Bean
+        </label><br><br>
+
+        <label for="etc">Any additional changes?</label><br>
+          <textarea name="etc" id="etc" cols="60" rows="5"></textarea>
+        <br><br>
+
+        <input type="submit" value="Send Order" style="font-size:25px; border-radius: 10px; font-family: 'Cantarell'">
+      </fieldset>
+
+  </form><br>
+
+  <div id="footer">
+    <a href="dayrit-form.html#top">Back to top</a>
+  </div>
+  
+</div>
+
+</body>
+</html>

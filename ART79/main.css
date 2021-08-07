@@ -1,0 +1,154 @@
+body {
+  background-color: #9c9cff;
+  /* background-image: url(images/ob016.jpg);
+  background-repeat: repeat;
+  background-position: top left;
+  background-attachment: scroll;
+  font-family: 'Cantarell';
+  font-size: 20px; */
+  color: #3b2e85;
+}
+
+h1 {
+  /* font-family: 'Garamond';
+  font-size: 40px;
+  font-weight: bold; */
+  /* font-style: italic; */
+  /* font-variant: small-caps; */
+  color: #5040ae;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-family: 'Garamond';
+  font-size: 35px;
+  font-weight: bolder;
+  font-style: italic;
+  font-variant: small-caps;
+  color: #5040ae;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  margin-bottom: -10px;
+}
+
+p {
+  /* font-size: 20px; */
+}
+
+p em {
+  color: red;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.green {
+  color: green;
+  font-size: 25px;
+}
+
+.special {
+  border-color: #5040ae;
+  border-width: 4px;
+  border-style: double;
+  margin: 30px;
+  padding: 15px;
+  float: none;
+  width: 950px;
+}
+
+.fltleft {
+  padding: 10px;
+  width: 350px;
+  float: left;
+}
+
+.fltright {
+  margin: 20px;
+  width: 350px;
+  float: right;
+}
+
+#wrapper {
+  width: 1400px;
+  margin: 20px auto;
+  border: 3px solid #5040ae;
+  padding: 10px 10px;
+  font: 20px/1.6em 'Cantarell';
+  background: #c7d1ff url(images/ob016.jpg);
+}
+
+#nav {
+  font: small-caps bold 35px 'Cantarell';
+  margin: 0 10px;
+}
+
+#nav ul {
+  background: #5040ae;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+#nav ul li {
+  display: inline;
+}
+
+#nav ul li a {
+  text-decoration: none;
+  color: #f2f2f2;
+  padding: 10px 20px;
+}
+
+#nav a:hover, a:focus {
+  background-color: #40338a;
+  color: white;
+}
+
+#header {
+  text-align: center;
+  font: bold 25px 'Garamond';
+  margin: -15px 10px;
+}
+
+#main {
+  font: 20px/1.5em 'Cantarell';
+  border-right: 2px solid #5040ae;
+  margin: 0 350px 0 0;
+  padding: 20px;
+}
+
+#main a:hover, a:focus {
+  background-color: #40338a;
+  color: white;
+}
+
+#terms {
+  border: 2px dashed #5040ae;
+  width: 310px;
+  float: right;
+  padding: 0 8px 0px 8px;
+  margin-top: -1000px;
+  margin-right: 4px;
+}
+
+#footer {
+  font: small-caps 35px 'Cantarell';
+  /* margin-top: -10px; */
+  background: #5040ae;
+  text-align: center;
+  padding: 10px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #f2f2f2;
+  padding: 10px;
+}
+
+#footer a:hover, a:focus {
+  background-color: #40338a;
+  color: white;
+}

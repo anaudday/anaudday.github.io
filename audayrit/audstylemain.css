@@ -1,0 +1,108 @@
+body {
+  background-color: #d1d9ff;
+  font-family: 'Cantarell';
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #5040ae;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #5040ae;
+}
+
+h3 {
+  font-size: 28px;
+/*  text-align: center;*/
+  color: #5040ae;
+  margin-bottom: 0px;
+}
+
+p {
+  text-align: center;
+  font-size: 28px;
+  color: #3b2e85;
+}
+
+.nav {
+  position: relative;
+  overflow: hidden;
+  background-color: #5040ae;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 22px;
+  display: inline-block;
+  margin: 0 -1.7px;
+}
+
+.nav a:hover {
+  background-color: #312769;
+  color: white;
+  transition: 0.8s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+	margin-left: 70px;
+	margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: -30px;
+}
+
+.column img {
+	margin: 10px;
+	width: 48%;
+}
+
+.column2 {
+  float: left;
+  width: 30%;
+}
+
+.column2 img {
+  width: 100%;
+  margin: 12px;
+  margin-top: -15px;
+  padding: 8px;
+}
+
+.icons {
+	font-size: 42px; 
+	color:#5040ae; 
+	text-align: center;
+	letter-spacing: 12px;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width : 600px ){
+  .nav a, .nav-right {
+    float: none;
+    display: block;
+  }
+}

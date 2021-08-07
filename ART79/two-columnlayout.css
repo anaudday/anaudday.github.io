@@ -1,0 +1,81 @@
+body {
+  font: .8em/1.5em Verdana, Arial, Helvetica, sans-serif;
+  color: #000;
+  background: #996;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#wrapper {
+  width: 760px;
+  background: #fff url(images/faux.gif) repeat-y;;
+  text-align: left;
+  margin: 0 auto;
+}
+
+#header {
+  background:#dccbac url(images/dec_top.gif) no-repeat bottom right;;
+}
+
+#header h1 {
+  font: 2.2em Georgia, "Times New Roman", Times, serif;
+  color: #333;
+  margin: 0;
+  padding: 20px 10px;
+}
+
+#nav {
+  width: 140px;
+  float: left;
+  padding: 15px 10px;
+}
+
+#nav ul li {
+  list-style: none;
+  line-height: 1.7em;
+}
+
+#nav a:link {
+  color: #030; /* dark green */
+  text-decoration: none;
+}
+
+#nav a:hover, #nav a:focus, #nav a:active {
+  color: #600; /* dark red */
+  text-decoration: none;
+}
+
+#content {
+  margin: 0 0 0 165px;
+  padding: 15px;
+  border-left: thin solid #ccc;
+}
+
+#footer {
+  padding: 10px;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  color: #999;
+  font-size: 0.7em;
+}
+
+#sidebar {
+  background: #877D6C;
+  width: 144px;
+  float: right;
+  padding: 15px 8px 8px 8px;
+  margin: 0 165px;
+}
+
+#sidebar p {
+  color: #fff;
+}
+
+.brclear {
+  clear:both;
+  height: 0;
+  margin: 0;
+  font-size: 1px;
+  line-height: 0;
+}
