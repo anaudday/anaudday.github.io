@@ -72,7 +72,7 @@ p {
 .column {
   float: left;
   width: 30%;
-  margin-top: -30px;
+  margin-top: -10px;
 }
 
 .column img {
