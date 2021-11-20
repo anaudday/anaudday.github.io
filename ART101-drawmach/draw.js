@@ -15,6 +15,7 @@ function setup() {
   button = createButton('SEND');
   button.mousePressed(msgReceive);
 
+  write("Test");
 }
 
 function draw() {
